@@ -13,5 +13,5 @@ try {
     console.error("MongoDB connection error:", e);
 }
 
-let db = client.db("APDS7311");
+const db = client.db("APDS7311");
 export default db;
